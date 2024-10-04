@@ -1,5 +1,5 @@
 function CountryName({params}: {params: {country_names: string}}) {
-    const countries: { [key: string]: any }={
+    const countries:any={
         pakistan:{
             name: "Pakistan",
             capital: "Islamabad",
